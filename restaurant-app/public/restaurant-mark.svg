@@ -1,0 +1,25 @@
+<!-- 將下方程式碼存成 public/restaurant-mark.svg -->
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="64" height="64" viewBox="0 0 64 64" fill="none">
+  <!-- 背景圓 -->
+  <circle cx="32" cy="32" r="30" fill="#D97706" stroke="#B45309" stroke-width="4"/>
+
+  <!-- 餐盤外框（白色圓環）-->
+  <circle cx="32" cy="32" r="20" fill="#FFFFFF"/>
+
+  <!-- 筷子 -->
+  <rect x="25" y="14" width="3" height="28" fill="#1F2937" rx="1.5"/>
+  <rect x="34" y="14" width="3" height="28" fill="#1F2937" rx="1.5"/>
+
+  <!-- 刀叉（交叉放在餐盤下方）-->
+  <path d="M18 40 L46 40" stroke="#1F2937" stroke-width="4" stroke-linecap="round"/>
+  <path d="M24 36 L24 56" stroke="#1F2937" stroke-width="4" stroke-linecap="round"/>
+  <path d="M40 36 L40 56" stroke="#1F2937" stroke-width="4" stroke-linecap="round"/>
+
+  <!-- 陰影邊框 -->
+  <circle cx="32" cy="32" r="30"
+          fill="none"
+          stroke="rgba(0,0,0,0.1)"
+          stroke-width="4"
+          filter="drop-shadow(2px 2px 2px rgba(0,0,0,0.2))"/>
+</svg>
