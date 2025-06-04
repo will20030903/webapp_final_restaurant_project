@@ -1,6 +1,34 @@
 # webapp_final_restaurant_project
 a webapp restaurant using React + TypeScript + Tailwind CSS +spring boot +rest api
 
+##專案概述
+```text
+-- 這是一套以「餐廳訂餐及後台管理」為核心的 Web 應用，完整涵蓋前端點餐、後端資料處理與管理功能。
+-- 前端採用 React + TypeScript 開發，提供使用者友善的點餐介面與管理介面。
+-- 後端使用 Spring Boot（Spring Data JPA）搭配 MariaDB，負責各種資料庫的 CRUD 操作與 REST API。
+-- 資料庫主要儲存「桌位（Table）」、「菜品（Dish）」、「顧客（Customer）」、「訂單（Order）」、「訂單明細（OrderDetail）」等核心實體。
+```
+
+##使用技術
+```text
+-- 前端
+---- React 17+ & TypeScript 4+
+---- React Router v6：負責頁面路由切換（例如結帳頁、菜品管理、桌位管理）
+---- Axios：與後端 API 通訊
+---- CSS 模組化（或 Tailwind CSS）：自訂樣式
+---- Context API：管理購物車（Cart）與全域狀態
+
+-- 後端
+---- Spring Boot 2.7+（Spring Web, Spring Data JPA）
+---- MariaDB（MySQL 相容）
+---- JPA Entities & Repository：以註解方式定義實體類別與資料表關聯
+---- RESTful API：CRUD 接口，回傳 JSON 格式
+
+-- 資料庫
+---- MariaDB
+---- five tables: Customer、TableInfo、Dish、Order、OrderDetail
+```
+
 ##系統架構圖
 ```text
 ┌───────────────────┐      ┌─────────────────────────┐      ┌───────────────┐
@@ -84,6 +112,8 @@ a webapp restaurant using React + TypeScript + Tailwind CSS +spring boot +rest a
 ├─ tsconfig.node.json             # Node.js 執行環境下 TypeScript 設定
 └─ vite.config.ts                 # Vite 架構設定 (alias、Server proxy、plugins 等)
 ```
+
+
 ##後端架構概述
 ```text
 restaurant-backend/
