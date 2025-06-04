@@ -1,4 +1,4 @@
-# webapp_final_restaurant_project
+# 智慧型餐廳訂餐與後台管理系統
 a webapp restaurant using React + TypeScript + Tailwind CSS +spring boot +rest api
 
 ##專案概述
